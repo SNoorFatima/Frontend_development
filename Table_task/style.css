@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#First-row {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+}
+
+.row {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, color 0.3s ease, margin-left 0.3s ease, font-weight 0.3s ease; /* Transition effect on background-color, color, margin-left, and font-weight */
+}
+
+.row:hover {
+    background-color: whitesmoke;
+    margin-left: 100px;
+    font-weight: bold;
+    color: green;
+}
+
+
