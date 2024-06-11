@@ -10,55 +10,59 @@
 </head>
 
 <body>
+<div class="website">
 
-    <head>
-        <div class="announcement-bar">
-            <p>Use Code TRENBEE10 to get the ₹500/- Off</p>
-        </div>
-        <!-- nav-bar -->
-        <div class="navbar">
-            <div class="navbar2">
-                <div class="navlogo">
-                    <h2>TrenBee</h2>
+    <!-- Announcement Bar Section -->
+    <section class="announcement-bar">
+        <p>Use Code TRENBEE10 to get the ₹500/- Off</p>
+    </section>
+
+    <!-- Navigation Section -->
+    <header class="navbar">
+        <div class="navbar2">
+            <div class="navlogo">
+                <h2>TrenBee</h2>
+            </div>
+            <nav class="nav-options">
+                <div class="menu-item">
+                    <a href="#">SHOP <span class="arrow">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Beach Wear and Coord Sets</a></li>
+                        <li><a href="#">Dresses and Jumpsuits</a></li>
+                        <li><a href="#">Shirts and Tops</a></li>
+                        <li><a href="#">Accessories and Footwear</a></li>
+                        <li><a href="#">Tracksuits and Bottom Wear</a></li>
+                        <li><a href="#">Sweatshirts and Jackets</a></li>
+                    </ul>
                 </div>
-                <div class="nav-options">
-                    <div class="menu-item">
-                        <a href="#">SHOP <span class="arrow">▼</span></a>
-                        <ul class="dropdown">
-                            <li><a href="#">Beach Wear and Coord Sets</a></li>
-                            <li><a href="#">Dresses and Jumpsuits</a></li>
-                            <li><a href="#">Shirts and Tops</a></li>
-                            <li><a href="#">Accessories and Footwear</a></li>
-                            <li><a href="#">Tracksuits and Bottom Wear</a></li>
-                            <li><a href="#">Sweatshirts and Jackets</a></li>
-                        </ul>
-                    </div>
-                    <div class="menu-item">
-                        <a href="#">ABOUT US <span class="arrow">▼</span></a>
-                        <ul class="dropdown">
-                            <li><a href="#">Reviews</a></li>
-                            <li><a href="#">Customer Support</a></li>
-                            <li><a href="#">Contact us</a></li>
-                        </ul>
-                    </div>
-                    <a href="#">TRACK YOUR ORDER</a>
-                    <a href="#">WISH LIST</a>
-                    <a href="#">RETURNS AND EXCHANGE</a>
-                    <a href="#">BLOG</a>
+                <div class="menu-item">
+                    <a href="#">ABOUT US <span class="arrow">▼</span></a>
+                    <ul class="dropdown">
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
                 </div>
-                <div class="icon">
-                    <i class="fa-solid fa-user-large"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <i class="fa-solid fa-bag-shopping"></i>
-                </div>
+                <a href="#">TRACK YOUR ORDER</a>
+                <a href="#">WISH LIST</a>
+                <a href="#">RETURNS AND EXCHANGE</a>
+                <a href="#">BLOG</a>
+            </nav>
+            <div class="icon">
+                <i class="fa-solid fa-user-large"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
             </div>
         </div>
-    </head>
-    <div class="hero-section"></div>
+    </header>
 
-    <div class="product-filter">
+    <!-- Hero Section -->
+    <section class="hero-section"></section>
 
-        <div class="filter-panel">
+    <!-- Main Content Section -->
+    <section class="product-filter">
+        <!-- Filter Panel Section -->
+        <aside class="filter-panel">
             <h3>Filter By</h3>
             <br>
             <input type="checkbox" id="collection-toggle" class="toggle">
@@ -97,7 +101,9 @@
                 <option value="m">Medium</option>
                 <option value="l">Large</option>
             </select>
-        </div>
+        </aside>
+
+        <!-- Main Panel Section -->
         <div class="main-pannel">
             <div class="nav-search">
                 <div class="search-icon">
@@ -106,18 +112,17 @@
                 <input type="text" placeholder="Search Products" class="search-input">
             </div>
             <div class="image-container">
-
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box1.jpg');"></div>
+                    <div class="box-image" style="background-image: url('assets/box1.jpg');"></div>
                     <p class="product-name">Vienna Vintage Jumpsuits</p>
                     <div class="product-price">
                         <p class="old-price">₹3899.00</p>
                         <p class="new-price">₹2,799.00</p>
                     </div>
-
                 </div>
-                <div class="box">
-                    <div class="box-image" style="background-image: url('box2.webp');"></div>
+                <!-- Repeat .box for more products -->
+           <div class="box">
+                    <div class="box-image" style="background-image: url('assets/box2.webp');"></div>
                     <p class="product-name">Alice Faux fur Coat</p>
                     <div class="product-price">
                         <p class="old-price">₹3599.00</p>
@@ -125,7 +130,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box3.jpg');"></div>
+                    <div class="box-image" style="background-image: url('assets/box3.jpg');"></div>
                     <p class="product-name">Liana 3D Flower Applique Dress</p>
                     <div class="product-price">
                         <p class="old-price">₹2899.00</p>
@@ -133,7 +138,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box4.webp');"></div>
+                    <div class="box-image" style="background-image: url('assets/box4.webp');"></div>
                     <p class="product-name">Celyn faux Leather Jacket with fur</p>
                     <div class="product-price">
                         <p class="old-price">₹4,999.00</p>
@@ -141,7 +146,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box5.webp');"></div>
+                    <div class="box-image" style="background-image: url('assets/box5.webp');"></div>
                     <p class="product-name">Bugs Bunny Graphic Print Oversized Sweatshirt</p>
                     <div class="product-price">
                         <p class="old-price">₹2,999.00</p>
@@ -149,7 +154,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box6.jpg');"></div>
+                    <div class="box-image" style="background-image: url('assets/box6.jpg');"></div>
                     <p class="product-name">Lisse Embroidered Dress</p>
                     <div class="product-price">
                         <p class="old-price">₹1,899.00</p>
@@ -157,7 +162,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box7.jpg');"></div>
+                    <div class="box-image" style="background-image: url('assets/box7.jpg');"></div>
                     <p class="product-name">Naomi Luxury Tie-Dye Dress</p>
                     <div class="product-price">
                         <p class="old-price">₹2,999.00</p>
@@ -165,7 +170,7 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box8.jpg');"></div>
+                    <div class="box-image" style="background-image: url('assets/box8.jpg');"></div>
                     <p class="product-name">Madison Puff Plaid Sheath Dress</p>
                     <div class="product-price">
                         <p class="old-price">₹3,999.00</p>
@@ -173,17 +178,16 @@
                     </div>
                 </div>
                 <div class="box">
-                    <div class="box-image" style="background-image: url('box9.webp');"></div>
+                    <div class="box-image" style="background-image: url('assets/box9.webp');"></div>
                     <p class="product-name">Alyssa Summer Midi Dress</p>
                     <div class="product-price">
                         <p class="old-price">₹2,999.00</p>
                         <p class="new-price">₹1,799.00</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+    </section>
 
+    <!-- Footer Section -->
     <footer>
         <div class="social-media">
             <i class="fa-brands fa-instagram"></i>
@@ -202,8 +206,8 @@
         </div>
         <div class="contact-us">
             <p>LET'S STAY CONNECTED</p>
-            <p>Subscribe to get product updates, special offers,</p>
-            <p>giveaways, and once-in-a-lifetime deals.</p>
+            <p>Subscribe to get product updates, special offers, giveaways,</p>
+            <p> and once-in-a-lifetime deals.</p>
             <br>
             <div class="email-div">
                 <div class="email-icon">
@@ -213,6 +217,7 @@
             </div>
         </div>
     </footer>
+</div>
 </body>
 
 </html>
