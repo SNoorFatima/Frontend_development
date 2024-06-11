@@ -23,9 +23,10 @@ table {
 
 .row:hover {
     background-color: whitesmoke;
-    margin-left: 100px;
+    margin-Left: 20px;
     font-weight: bold;
     color: green;
+    transition: all 0.5s;
 }
 
 
